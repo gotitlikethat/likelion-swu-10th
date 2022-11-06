@@ -3,6 +3,7 @@ import Axios from "axios";
 import Movie from './Movie';
 import Header from './Header';
 import './App.css';
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 class App extends React.Component {
   state = {
